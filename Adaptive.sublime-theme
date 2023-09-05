@@ -1,0 +1,24 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+    },
+    "rules":
+    [
+        {
+            "class": "title_bar",
+            "settings": ["themed_title_bar"],
+            "bg": "var(medium_dark_bg)",
+            "style": "system"
+        },
+        {
+            "class": "sheet_contents",
+            "settings": {
+                "inactive_sheet_dimming": true,
+                "file_tab_style": ["", "rounded", "square"],
+            },
+            "attributes": ["file_dark", "!highlighted"],
+            "background_modifier": "blend(white 99%)"
+        },
+    ]
+}
